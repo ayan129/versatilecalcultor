@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+
+    <div class="container">
+        <form name="form">
+        <div class="display">
+        <input type="text" placeholder="0" name="displayResult" id="val">
+        </div>
+        <div class="buttons">
+        <div class="row">
+        <input type="button" name="b7" value="7" onClick="getvalue('7')">
+        <input type="button" name="b8" value="8" onClick="getvalue('8')">
+        <input type="button" name="b9" value="9" onClick="getvalue('9')">
+        <input type="button" name="addb" value="+" onClick="getvalue('+')">
+        </div>
+        
+        <div class="row">
+        <input type="button" name="b4" value="4" onClick="getvalue('4')">
+        <input type="button" name="b5" value="5" onClick="getvalue('5')">
+        <input type="button" name="b6" value="6" onClick="getvalue('6')">
+        <input type="button" name="subb" value="-" onClick="getvalue('-')">
+        </div>
+        
+        <div class="row">
+        <input type="button" name="b1" value="1" onClick="getvalue('1')">
+        <input type="button" name="b2" value="2" onClick="getvalue('2')">
+        <input type="button" name="b3" value="3" onClick="getvalue('3')">
+        <input type="button" name="mulb" value="x" onClick="getvalue('*')">
+        </div>
+        
+        <div class="row">
+        <input type="button" name="b0" value="0" onClick="getvalue('0')">
+        <input type="button" name="potb" value="C" onClick="clearresult()">
+        <input type="button" name="divb" value="/" onClick="getvalue('/')">
+        <input type="button" class="red" value="=" onClick="getresult()">
+        </div>
+        </div>
+        
+        </form>
+      </div>
+      
+
+
+
+</body>
+</html>
